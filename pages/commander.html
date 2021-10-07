@@ -21,9 +21,41 @@
         </ul>
     </nav>
 
-    <div>
+    <div class="center">
         <h1>Commander</h1>
+
+        <form class="form-table" action="" method="POST" >
+            <div class="form-row">
+                <select name="pizza-select" id="pizza-select">
+                    <option value="#" disabled>Selectionner une pizza</option>
+                    <option value="#">Pizza 4 fromage</option>
+                    <option value="#">Chevre miel</option>
+                    <option value="#">Samourai kebab</option>
+                    <option value="#">Indienne</option>
+                    <option value="#">Hawaienne jambon</option>
+                    <option value="#">Hawaienne poulet</option>
+                </select>
+                
+            </div>
+            <div class="form-row">
+                <input type="text" name="nom" id="nom">
+                <label>Nom</label>
+            </div>
+            <div class="form-row">
+                <input type="text" name="adresse" id="adresse" required>
+                <label>Adresse</label>  
+            </div>
+            <div class="form-row">
+                <input type="text" name="email" id="email">
+                <label>Email</label>            
+            </div>
+            <div class="form-row">
+                <input type="submit" value="Valider">
+            </div>
+        </form>
     </div>
+
+    
     
 </body>
 </html>
